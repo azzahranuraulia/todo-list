@@ -11,31 +11,3 @@ Mengedit tugas yang sudah ada (edit)
 
 Menghapus tugas (delete)
 
-Struktur Aplikasi
-index.php — Front controller yang mengarahkan aksi sesuai parameter URL (action dan id)
-
-controllers/TodoController.php — Pengendali utama aplikasi yang mengatur aksi-aksi CRUD tugas
-
-models/ — (Opsional) Berisi model untuk akses data, bisa menggunakan database atau file
-
-views/ — Berisi file tampilan (HTML/PHP) untuk menampilkan daftar tugas dan form input
-
-Cara Penggunaan
-Pastikan server web kamu mendukung PHP (XAMPP).
-
-Letakkan seluruh file aplikasi di direktori server (misal htdocs/todolist).
-
-Akses aplikasi melalui browser: http://localhost/todolist/index.php
-
-Gunakan parameter URL untuk aksi tertentu, contohnya:
-
-index.php?action=create untuk menambah tugas baru
-
-Rencana Pengembangan
-Menambah validasi input tugas
-
-Menyimpan data ke database MySQL
-
-Membuat tampilan lebih interaktif dengan AJAX atau JavaScript
-
-Menambahkan fitur filter dan pencarian tugas
